@@ -1,0 +1,25 @@
+body{
+    /* height: 100%; */
+    text-align: center;
+    color: white;
+    font-size: 40px; 
+}
+.bg{
+    background-image: url(empire-state.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items:center;
+    position: absolute;
+    filter: blur(30px);
+    left: -30px;
+    top: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+}
+
+.loading{
+    font-weight: 60px;
+}
